@@ -1,0 +1,16 @@
+body {
+    background-color:#fca6c9;
+    text-align:center;
+    color:white;
+}
+.quote_src{
+    font-weight:bold;
+}
+.points {
+    text-align:left;
+    font-family: "Arial", sans-serif;
+    color:black;
+    position:absolute;
+    font-weight:bold;
+    left:230px;
+}
