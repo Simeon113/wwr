@@ -1,0 +1,17 @@
+body {background-color: blueviolet;}
+main{display: grid;
+grid-template-columns: 1fr 2fr 2fr;
+}
+.frogcolor {background-color: green}
+.jumping {background: yellow;
+    grid-row: 2;
+    grid-column: 2;
+
+}
+.jumping div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.eating {background-color: brown;
+ grid-column: 2/4;
+}

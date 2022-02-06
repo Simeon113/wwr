@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: "Shadows into light", Helvetica, sans-serif;
 
 }
 
@@ -9,27 +12,43 @@ color: white;
 text-decoration: none;
 }
 #hero-msg h1 {text-align: center;}
-#hero-msg h2 {text-align: center;}
+#hero-msg h4 {text-align: center;}
+.button-box {text-align: center;}
 main section {text-align: center;}
 
 #background {height: 725px;}
 
-body {background-color: #7209B7	;}
+body {background-color: #7209B7;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    }
+
+h2 {margin: 0;}
 
 header {background-color: #3A0CA3	;}
 
-nav a:hoover {background-color: #3A0CA3	;
-    color: white
+nav a:hover {background-color: #3A0CA3	;
+    color: white;
+    padding: 35px;
 }
 
 .book {background-color: #4361EE	;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {background-color: #4361EE	;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {background-color: #F72585	;
@@ -42,17 +61,32 @@ nav a:hoover {background-color: #3A0CA3	;
 
 #background {background-color: #3A0CA3;}
 
-.msg {background-color: #3A0CA3	;}
+.msg {background-color: #3A0CA3	;
+line-height: 1.5em;
+padding: 35px;
+}
 
-footer {background-color: #3A0CA3	;}
+footer {background-color: #3A0CA3	;
+padding: 25px 50px;
+margin-top: 200px; 
+}
 
-.home title {color: white}
+.home-title {color: white;
+    font-family: "Architects Daughter", Calibri, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 h4 {color: white}
 
-.msg h2 {color: white}
+.msg h2 {color: white;
+    font-family: "Architects Daughter";
+}
 
-.msg p {color: white}
+.msg p {color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 
 footer h3 {color: white}
 
@@ -66,6 +100,23 @@ text-decoration: underline;
 
 .logo {width: 80px}
 
-.icon {width: 80px}
+.icon {width: 80px;
+padding-top: 10px;
+}
 
-#hero-img {width : 100%}
+#hero-img {width: 100%;}
+
+#logo_link {padding-top: 5px;}
+
+footer.social img {padding-top: 15px;}
+
+.rivers-card {margin: 200px 0;}
+
+.camping-card {margin: 200px 0;}
+
+.rapids-card {margin: 200px 0;}
+
+.card-img {border: 10px solid #F72585;}
+
+
+main section img {box-sizing: border-box;}
