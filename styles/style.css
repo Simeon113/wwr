@@ -120,6 +120,7 @@ padding-top: 10px;
 
 #hero-img {width: 100%;}
 
+
 #logo_link {padding-top: 5px;}
 
 footer.social img {padding-top: 15px;}
@@ -192,6 +193,34 @@ grid-row: 5/8;
 }
 
 section h2 {color: white;}
+
+.FAQ {background-color: #4fb0c6	;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/10;
+    margin-top: 50px;
+    /* grid-row: 6/7; */
+    margin-right: -50px;
+    text-align: left;
+    
+    }
+
+.FAQ h2 {background-color: #379392	;
+    color: white;
+    font-family: "Architects Daughter";
+    margin-left: -100px;
+   
+    padding: 20px;
+   display: inline;
+    
+}
+
+.FAQ p {color: white;
+    /* font-size: 1.2em; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
 
 @media screen and (max-width: 900px){ 
     #hero, main.home-grid {
