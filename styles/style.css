@@ -266,4 +266,10 @@ section h2 {color: white;}
         margin: 0 auto;
         /* padding: 0 auto; */
     }
+    .FAQ h2{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin: 0 auto;
+    }
 }
