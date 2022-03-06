@@ -268,9 +268,9 @@ section h2 {color: white;}
     }
     .FAQ h2{
         width: 100%;
-        display: block;
+        /* display: block; */
         margin: 0 auto;
-        margin: 0 auto;
+        
         text-align: center;
     }
 }
