@@ -264,5 +264,6 @@ section h2 {color: white;}
         width: 80%;
         display: block;
         margin: 0 auto;
-        padding: 0 auto;
+        /* padding: 0 auto; */
+    }
 }
