@@ -259,4 +259,9 @@ section h2 {color: white;}
         margin-top: 25px;
     }
     .book{background-color: #744fc6;}
+
+    .FAQ {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
 }
