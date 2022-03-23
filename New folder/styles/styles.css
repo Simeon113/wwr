@@ -140,6 +140,7 @@ footer h3 { color: #CBC5EA}
 
 footer a  {color: #CBC5EA;
     text-decoration: none;
+    font-weight: bold;
 }
     
 footer a:hover {color: #183642;
