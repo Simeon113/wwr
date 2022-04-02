@@ -22,7 +22,7 @@ header {background-color: #313D5A		;
     grid-template-columns: 150px auto;
 }
 
-h1, a {
+h1 a button {
     font-family: 'Amatic SC';
 }
 
@@ -133,7 +133,6 @@ footer {background-color: #313D5A	;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
     }
 
 footer h3 { color: #CBC5EA}
@@ -141,6 +140,7 @@ footer h3 { color: #CBC5EA}
 footer a  {color: #CBC5EA;
     text-decoration: none;
     font-weight: bold;
+    
 }
     
 footer a:hover {color: #183642;
@@ -193,3 +193,124 @@ footer.social img {padding-top: 15px;}
 }
 
 .info {margin: 50px;}
+
+.home-grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.images3 {
+    grid-column: 1;
+    width: 80%;
+    height: 80%;
+
+}
+
+.packaging {
+    margin: 10%;
+    margin-bottom: 0;
+}
+
+.truck {
+    margin: 10%;
+}
+
+.order {
+    grid-column: 2;
+}
+
+.button {
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+    background-color: #313D5A;
+    color: #CBC5EA;
+    border-radius: 15%;
+    font-weight: bold;
+    font-size: 250%;
+    padding: 1%;
+    display: grid;
+    margin: auto;
+    padding: 1%;
+    margin-top: 10%;
+    align-content: center;
+}
+
+.button:hover{
+    background-color: #73628A;
+    color: #183642;
+}
+
+* {box-sizing: border-box;}
+
+
+
+/* Full-width input feilds */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #73628A;
+    color: #183642;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity:1;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #313D5A;
+    color: #CBC5EA;
+}
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container  {
+    padding: 16px;
+    font-weight: bold;
+    font-family: 'Amatic SC';
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra amall screens */
+@media screen and (maxi-width: 300px){
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
